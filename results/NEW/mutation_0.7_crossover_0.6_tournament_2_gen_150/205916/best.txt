@@ -1,0 +1,15 @@
+Generation:
+150
+
+Phenotype:
+np.where((plog(plog(plog(x[:, 392]))) > x[:, 297]), 0, 1)
+
+Genotype:
+[528, 36262, 83873, 18024, 65316, 51338, 18842, 89632, 9303, 32697, 72936, 86984, 41873]
+Tree:
+None
+
+Training fitness:
+0.7586383707118061
+Test fitness:
+0.7278911564625852

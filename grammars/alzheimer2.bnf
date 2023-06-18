@@ -1,0 +1,7 @@
+<cf> ::= np.where(<cond>, 0, 1) | <os>
+<cond> ::= (<var> <relop> <var>) | (<cond> <lop> (<var> <relop> <var>))
+<relop> ::= > | < | >= | <=
+<lop> ::= & | "|"
+<os> ::= 0 | 1
+<var> ::= x[:, <varidx>]  | (<var>+<var>) | (<var>-<var>) | (<var>*<var>) | pdiv(<var>, <var>) | psqrt(<var>) | plog(<var>)
+<varidx> ::= GE_RANGE:dataset_n_vars

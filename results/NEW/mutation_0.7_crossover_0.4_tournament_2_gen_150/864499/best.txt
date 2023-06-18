@@ -1,0 +1,15 @@
+Generation:
+150
+
+Phenotype:
+np.where((pdiv(plog(x[:, 161]), psqrt(x[:, 206])) > plog(psqrt(x[:, 377]))), 0, 1)
+
+Genotype:
+[39592, 48370, 19807, 10618, 97139, 38411, 1475, 38318, 77156, 85144, 38779, 79777, 22981, 67877, 29949, 23609, 75281, 49050, 99765, 13417, 17168]
+Tree:
+(<cf> np.where( (<cond> ( (<var> pdiv( (<var> plog( (<var> x[:,  (<varidx> 161) ]) )) ,  (<var> psqrt( (<var> x[:,  (<varidx> 206) ]) )) ))   (<relop> >)   (<var> plog( (<var> psqrt( (<var> x[:,  (<varidx> 377) ]) )) )) )) , 0, 1))
+
+Training fitness:
+0.7553956834532374
+Test fitness:
+0.5921004060538944
